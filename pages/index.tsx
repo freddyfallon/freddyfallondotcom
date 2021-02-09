@@ -24,7 +24,7 @@ function NavLink(props: { href: string; children: React.ReactNode }) {
 
 export default function Home() {
   return (
-    <div className="font-serif flex flex-col h-screen justify-center space-y-0 sm:space-y-3 md:space-4 lg:space-8">
+    <div className="flex flex-col justify-center h-full font-serif space-y-0 sm:space-y-3 md:space-4 lg:space-8">
       <Head>
         <title>Freddy Fallon</title>
         <link
