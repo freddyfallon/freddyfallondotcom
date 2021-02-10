@@ -27,6 +27,10 @@ export default function Home() {
     <div className="flex flex-col justify-center h-full font-serif space-y-0 sm:space-y-3 md:space-4 lg:space-8">
       <Head>
         <title>Freddy Fallon</title>
+        <meta
+          name="description"
+          content="JavaScript/TypeScript engineer based in London, U.K. working with React.js and Node.js."
+        />
         <link
           rel="preload"
           href="/fonts/hepta-slab/HeptaSlab-Regular.ttf"
