@@ -16,7 +16,7 @@ function Nav(props: { children: React.ReactNode }) {
 
 function NavLink(props: { href: string; children: React.ReactNode }) {
   return (
-    <a className="text-s sm:text-base md:text-3xl" href={props.href}>
+    <a className="text-sm sm:text-base md:text-3xl" href={props.href}>
       {props.children}
     </a>
   );
