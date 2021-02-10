@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center h-full font-serif space-y-0 sm:space-y-3 md:space-4 lg:space-8">
       <Head>
-        <title>Freddy Fallon</title>
+        <title>Freddy Fallon - Full Stack Engineer</title>
         <meta
           name="description"
           content="JavaScript/TypeScript engineer based in London, U.K. working with React.js and Node.js."
@@ -46,7 +46,7 @@ export default function Home() {
       </Head>
       <Header>
         <h1 className="text-4xl font-bold sm:text-5xl md:text-7xl lg:text-9xl">
-          <a href="/">Freddy Fallon - Full Stack Engineer</a>
+          <a href="/">Freddy Fallon</a>
         </h1>
       </Header>
       <Nav>
