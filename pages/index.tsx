@@ -45,7 +45,7 @@ export default function Home() {
         />
       </Head>
       <Header>
-        <h1 className="text-4xl font-bold sm:text-5xl md:text-7xl lg:text-9xl">
+        <h1 className="text-center text-4xl font-bold sm:text-5xl md:text-7xl lg:text-9xl">
           <a href="/">Freddy Fallon</a>
         </h1>
       </Header>
