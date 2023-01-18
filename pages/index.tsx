@@ -26,10 +26,10 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center h-full font-serif space-y-0 sm:space-y-3 md:space-4 lg:space-8">
       <Head>
-        <title>Freddy Fallon - Full Stack Engineer</title>
+        <title>Freddy Fallon - Software Engineer</title>
         <meta
           name="description"
-          content="JavaScript/TypeScript engineer based in London, U.K. working with React.js and Node.js."
+          content="Go/JavaScript/TypeScript engineer based in London, U.K. Spend nearly all of my time writing backend code in Go but before that worked in Node and React."
         />
         <link
           rel="preload"
