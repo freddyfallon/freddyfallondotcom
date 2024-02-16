@@ -48,7 +48,7 @@ export default function Home() {
         <title>Freddy Fallon - Software Engineer</title>
         <meta
           name="description"
-          content="Go/JavaScript/TypeScript engineer based in London, U.K. Spend nearly all of my time writing backend code in Go but before that worked in Node and React."
+          content="TypeScript/JavaScript/Go engineer based between Brighton and London, U.K. Work with Node and React."
         />
         <link
           rel="preload"
