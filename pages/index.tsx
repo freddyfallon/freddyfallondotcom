@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 
 function Header(props: { children: React.ReactNode }) {
   return <header className="flex justify-between flex-col gap-3 sm:flex-row sm:gap-0">{props.children}</header>;
@@ -19,6 +18,15 @@ function NavLink(props: { href: string; children: React.ReactNode }) {
       {props.children}
     </a>
   );
+}
+
+function TextLink(props: { href: string; children: React.ReactNode }) {
+  return (
+    <a className="underline decoration-pink-600 text-pink-600 hover:text-pink-500 hover:decoration-pink-500" href={props.href}>
+      {props.children}
+    </a>
+  );
+
 }
 
 function Section(props: { children: React.ReactNode }) {
@@ -74,9 +82,9 @@ export default function Home() {
             London.</Text>
           <Text>I work with JavaScript and TypeScript, as well as Go. I've worked at a number of places, such as Bulb
             🪦, Compare The Market 👔, and Monzo 💰.</Text>
-          <Text>If you want to get in touch, feel free to <Link className="underline decoration-pink-500 text-pink-500"
-                                                                href="mailto:freddyfallon@gmail.com">email me</Link>, or
-            check out my <Link className="underline decoration-pink-500 text-pink-500" href="https://www.linkedin.com/in/freddyfallon/">LinkedIn</Link>.</Text>
+          <Text>If you want to get in touch, feel free to <TextLink
+            href="mailto:freddyfallon@gmail.com">email me</TextLink>, or
+            check out my <TextLink href="https://www.linkedin.com/in/freddyfallon/">LinkedIn</TextLink>.</Text>
         </VSpace>
       </Section>
     </main>
