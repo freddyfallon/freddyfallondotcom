@@ -1,5 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
@@ -33,8 +31,7 @@ yarn-error.log*
 # vercel
 .vercel
 
-.DS_Store
-
+# yarn
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -43,20 +40,12 @@ yarn-error.log*
 !.yarn/sdks
 !.yarn/versions
 
-# User-specific stuff
+# Intelli-J
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
-# AWS User-specific
-.idea/**/aws.xml
-
-# Generated files
-.idea/**/contentModel.xml
-
-# Sensitive or high-churn files
 .idea/**/dataSources/
 .idea/**/dataSources.ids
 .idea/**/dataSources.local.xml
@@ -64,3 +53,4 @@ yarn-error.log*
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+.idea/**/contentModel.xml
